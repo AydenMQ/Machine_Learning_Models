@@ -29,8 +29,8 @@ This repository contains four Jupyter Notebook models developed as part of a sci
 To get started, clone this repository and install the required Python packages. Ensure that you have Python 3 installed and JupyterLab set up. Use the following commands:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AydenMQ/Machine_Learning_Models.git
+cd Machine_Learning_Models
 pip install -r requirements.txt
 ```
 
