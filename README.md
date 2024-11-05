@@ -1,15 +1,15 @@
 # Machine_Learning_Models
-Model Scripts created in Python Jupyter's Lab
-Code produced by Ayden McCarthy
+Model Scripts created in Python Jupyter's Lab.
+Code produced by Ayden McCarthy.
 Manuscript Title: "Machine Learning Models Predict Assessment Outcomes 
                    From Military Physical Employment Standards Via a 
-                   Physical Test Battery"
-Program of Study: PhD Candidacy
-Institution: Macquarie University
-Year: 2024
+                   Physical Test Battery".
+Program of Study: PhD.
+Institution: Macquarie University.
+Year: 2024.
 # Model Suite
 
-This repository contains four Jupyter Notebook models developed as part of a scientific manuscript, each designed to predict specific performance metrics using Ridge regression, support vector regression, random forest, and multilayer perceptron models. Each notebook follows a logical order and structure, providing reproducible and transparent data analysis for researchers and practitioners. This suite supports applications in performance modeling, prediction, and cross-validation for various populations.
+This repository contains four Jupyter Notebook models developed as part of a scientific manuscript. Each model is designed to predict specific performance metrics using Ridge regression, support vector regression, random forest, and multilayer perceptron models. Each notebook follows a logical order and structure, providing reproducible and transparent data analysis for researchers and practitioners. This suite supports applications in performance modelling, prediction, and cross-validation for various populations.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ This repository contains four Jupyter Notebook models developed as part of a sci
 
 ## Installation
 
-To get started, clone this repository and install the required Python packages. Ensure that you have Python 3 installed and JupyterLab set up. Use the following commands:
+To get started, clone this repository and install the required Python packages. Ensure that you have installed Python 3 and that JupyterLab is set up. Use the following commands:
 
 ```bash
 git clone https://github.com/AydenMQ/Machine_Learning_Models.git
@@ -34,7 +34,7 @@ cd Machine_Learning_Models
 pip install -r requirements.txt
 ```
 
-Create a `requirements.txt` file with the following content:
+Download the `requirements.txt` file. If not, create a `requirements.txt` file with the following content:
 
 ```text
 pandas==2.2.2
