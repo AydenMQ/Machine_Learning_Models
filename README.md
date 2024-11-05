@@ -51,15 +51,16 @@ This ensures compatibility with the specific package versions used in your noteb
 
 ## Models
 
-This repository includes four Ridge regression models, each in a separate Jupyter Notebook (.ipynb). The models were developed for robust predictive modeling. Each notebook handles data pre-processing, training, hyperparameter tuning, and output generation.
+This repository includes four machine learning models, each in a separate Jupyter Notebook (.ipynb). The models were developed for robust predictive modelling. Each notebook handles training, hyperparameter tuning, and output generation on an unseen testing data set.
+The Four Models Include: Support Vector Regression, Ridge, Random Forest, and Multilayer Perceptron Model.
 
 ### Notebook Structure
 
 Each model notebook follows the same logical flow:
 
 1. **Data Import**: Load the dataset, which may contain performance metrics, demographic variables, or other features.
-2. **Pre-processing**: Handle missing values, feature scaling, and data partitioning into training and test sets.
-3. **Model Training**: Train the specified model with tuned hyperparameters.
+2. **Pre-processing**: Standardises the training data set.
+3. **Model Training**: Train the specified model with a Gridsearch to tune hyperparameters.
 4. **Validation**: Cross-validation (if applicable) to validate the model's performance and generalization capabilities.
 5. **Results Output**: Save the results, including RMSE, and other relevant metrics, to CSV or JSON for reporting.
 
@@ -75,15 +76,15 @@ Open each notebook in JupyterLab and run the cells sequentially. Each cell conta
    jupyter lab
    ```
 
-2. Open the desired notebook (e.g., `Ridge_Model.ipynb`), and run all cells or step through cells to review intermediate results.
+2. Open the desired notebook (e.g., `Ridge_Model.ipynb`), and run all cells or step through cells to review intermediate results. **Note:** Make sure you have the training and testing set correctly spelled as .csv files.
 
 ### Parameter Tuning
 
-Each model can be tuned for optimal performance using scikit-learn’s GridSearchCV or manual adjustment within the notebook. Refer to the hyperparameters section to adjust parameters such as `alpha` for Ridge regularization.
+Each model can be tuned for optimal performance using scikit-learn’s GridSearchCV or manual adjustment within the notebook. Refer to the hyperparameters section to adjust the parameters. For example, `alpha` for Ridge regularization.
 
 ### Cross-validation
 
-Cross-validation is incorporated in each notebook to ensure model robustness on unseen data (testing phase). Results include cross-validated RMSE for consistent performance evaluation.
+Each notebook incorporates cross-validation to ensure model robustness on unseen data (testing phase). Results include cross-validated RMSE for consistent performance evaluation.
 
 ## Output Files
 
