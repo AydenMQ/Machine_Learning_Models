@@ -1,5 +1,12 @@
 # Machine_Learning_Models
 Model Scripts created in Python Jupyter's Lab
+Code produced by Ayden McCarthy
+Manuscript Title: "Machine Learning Models Predict Assessment Outcomes 
+                   From Military Physical Employment Standards Via a 
+                   Physical Test Battery"
+Program of Study: PhD Candidacy
+Institution: Macquarie University
+Year: 2024
 # Model Suite
 
 This repository contains four Jupyter Notebook models developed as part of a scientific manuscript, each designed to predict specific performance metrics using Ridge regression, support vector regression, random forest, and multilayer perceptron models. Each notebook follows a logical order and structure, providing reproducible and transparent data analysis for researchers and practitioners. This suite supports applications in performance modeling, prediction, and cross-validation for various populations.
