@@ -1,10 +1,11 @@
-cff-version: 1.1.0
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: McCarthy
-  given-names: Ayden
-  Institution: Macquaire University
-orcid: https://orcid.org/0000-0001-8927-7484
-title:AydenMQ/Machine_Learning_Models: Machine Learning Models Version 2
-version: Version_2
+- family-names: "McCarthy"
+  given-names: "Ayden"
+  orcid: "https://orcid.org/0000-0001-8927-7484"
+title: "AydenMQ/Machine_Learning_Models: Machine Learning Models Version 2"
+version: 2.0.0
+doi: 10.5281/zenodo.14038000
 date-released: 2024-11-05
+url: "https://https://github.com/AydenMQ/Machine_Learning_Models"
