@@ -7,6 +7,7 @@ Manuscript Title: "Machine Learning Models Predict Assessment Outcomes
 Program of Study: PhD.
 Institution: Macquarie University.
 Year: 2024.
+DOI: 10.5281/zenodo.14043036
 # Model Suite
 
 This repository contains four Jupyter Notebook models developed as part of a scientific manuscript. Each model is designed to predict specific performance metrics using Ridge regression, support vector regression, random forest, and multilayer perceptron models. Each notebook follows a logical order and structure, providing reproducible and transparent data analysis for researchers and practitioners. This suite supports applications in performance modelling, prediction, and cross-validation for various populations.
